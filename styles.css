@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    background-color: rgb(47, 47, 47);
+    color: whitesmoke;
+}
+
+header {
+    border-bottom: 2px gray solid;
+    background-color: black;
+}
+
+.icon {
+    max-width: 50px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: right;
+    gap: 30px;
+    padding: 0px 50px;
+    margin: 0;
+    align-items: center;
+}
+
+a:link {
+    color: whitesmoke;
+}
+
+  a:visited {
+    color: whitesmoke;
+}
+  
+  a:hover {
+    color: whitesmoke;
+}
+  
+  a:active {
+    color: whitesmoke;
+}
+
+section {
+    height: 30vh;
+}
+
+footer {
+    display: flex;
+    border-top: 2px gray solid;
+    justify-content: center;
+    background-color: black;
+    padding: 0 0 4px 0;
+}
+
+@media Queries {}
