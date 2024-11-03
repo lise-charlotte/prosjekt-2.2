@@ -28,20 +28,34 @@ a:link {
     color: whitesmoke;
 }
 
-  a:visited {
+a:visited {
     color: whitesmoke;
 }
   
-  a:hover {
+a:hover {
     color: whitesmoke;
 }
   
-  a:active {
+a:active {
     color: whitesmoke;
 }
 
 section {
-    height: 30vh;
+    height: 70vh;
+}
+
+.sectionOne {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionOne > img {
+    max-width: 17em;
+}
+
+.sectionOne > p {
+    margin: 20px;
 }
 
 footer {
