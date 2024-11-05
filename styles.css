@@ -7,6 +7,8 @@ body {
 header {
     border-bottom: 2px gray solid;
     background-color: black;
+    position: sticky;
+    top: 0;
 }
 
 .icon {
@@ -42,16 +44,41 @@ a:active {
 
 section {
     height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 550px;
+    margin: auto;
 }
 
 .sectionOne {
+    height: 90vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+}
+
+.sectionOne > h1 {
+    padding-top: 60px;
 }
 
 .sectionOne > img {
     max-width: 17em;
+}
+
+.card {
+    display: flex;
+    max-width: 475px;
+}
+
+.cardText {
+    width: 50%;
+}
+
+.cardImg {
+    width: 50%;
 }
 
 .sectionOne > p {
