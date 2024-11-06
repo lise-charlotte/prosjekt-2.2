@@ -43,7 +43,7 @@ a:active {
 }
 
 section {
-    height: 70vh;
+    height: 60vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -53,7 +53,7 @@ section {
 }
 
 .sectionOne {
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,11 +61,15 @@ section {
 }
 
 .sectionOne > h1 {
-    padding-top: 60px;
+    padding-top: 70px;
 }
 
 .sectionOne > img {
     max-width: 17em;
+}
+
+.sectionOne > p {
+    margin: 20px;
 }
 
 .card {
@@ -75,14 +79,11 @@ section {
 
 .cardText {
     width: 50%;
+    text-align: center;
 }
 
 .cardImg {
     width: 50%;
-}
-
-.sectionOne > p {
-    margin: 20px;
 }
 
 footer {
